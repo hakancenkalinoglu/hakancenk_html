@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(8,90,138);
+}
+h2{
+    color: black;
+}
+p{
+    color: black;
+}
+img{
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+}
+a:link{
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+
+}
+a.visited{
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+
+}
+a:hover{
+    color: rgb(0, 255, 55);
+    background-color: transparent;
+    text-decoration: underline;
+
+}
+.mainCSS{
+    background-color: tomato;
+    color: white;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
