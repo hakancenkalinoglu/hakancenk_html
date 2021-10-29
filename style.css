@@ -1,22 +1,19 @@
 body{
     background-color: rgb(8,90,138);
 }
-h2{
-    color: black;
-}
 p{
     color: black;
 }
 img{
-    width: 42px;
-    height: 42px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
 }
 a:link{
     color: green;
     background-color: transparent;
-    text-decoration: none;
-
+    text-decoration:none;
+    
 }
 a.visited{
     color: black;
@@ -34,7 +31,12 @@ a:hover{
     background-color: tomato;
     color: white;
     border: 2px solid black;
+    align-items: center;
     margin: 20px;
     padding: 20px;
     text-align: center;
+}
+.tryMe{
+    border: 2px, yellow;
+    border-collapse:collapse ;
 }
