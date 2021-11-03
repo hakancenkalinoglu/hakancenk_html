@@ -35,8 +35,43 @@ a:hover{
     margin: 20px;
     padding: 20px;
     text-align: center;
+    border-radius: 25px;
 }
-.tryMe{
-    border: 2px, yellow;
-    border-collapse:collapse ;
+.left{
+    float: left;
 }
+.right{
+    float: right;
+}
+.center {
+    text-align: center;
+  }  
+.pagination{
+    display: inline-block;
+    
+}
+.pagination a.active {
+    background-color: white;
+    color:black;
+    border: 1px solid black;
+  }
+.pagination a{
+    color:black;
+    float: left;
+    padding: 8px 16px;
+    border: 1px solid #ddd;
+    background-color: tomato;
+}
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+}
+.pagination a:first-child {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+.newspaper {
+  column-count: 3;
+}
+.dark-mode {
+    background-color: black;
+  }

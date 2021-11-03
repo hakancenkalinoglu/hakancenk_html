@@ -11,28 +11,30 @@
     <body>
 
 
-        <div class="mainCSS">
-            <h2>Welcome to My Page</h2>
+        <div class="mainCSS" >
+            <h2 >Welcome to My Page </h2>
         </div>
+
+
 
 
         <div class="mainCSS" >
             <nav>
                 <a href="aboutMe.html">About Me</a> |
-                <a href="https://www.youtube.com/watch?v=5qap5aO4i9A" target="_blank">Lofi Radio</a>
+                <a href="https://www.youtube.com/watch?v=5qap5aO4i9A" target="_blank">Lofi Radio</a> |
+                <a href="memories.html">Memories</a> 
             </nav>
         </div>
 
-        
-        <div class= "mainCSS">
-            <form action="aboutMe.html">
+        <div class="mainCSS">
+            <form action="aboutMe.html" target="_self">
                 <label for="fname">First name:</label>
                 <input type="text" id="fname" name="fname"><br><br>
                 <label for="lname">Last name:</label>
                 <input type="text" id="lname" name="lname"><br><br>
                 <input type="submit" value="submit">
-              </form>
-        </div>
+            </form>
+        </div>    
               
         
         <div class="mainCSS">
@@ -58,12 +60,24 @@
             <a href="mailto:hakancenkkalinoglu@gmail.com">
                 <img src ="images/gmail1.png">
             </a>
+        </div>
+
+        
+        
+        <div class="center">
+            <div class="pagination">
+                    <a href="#">&laquo;</a>
+                    <a href="aboutMe.html">1</a>
+                    <a class="active" href="index.html">2</a>
+                    <a href="https://www.youtube.com/watch?v=5qap5aO4i9A">3</a>
+                    <a href="memories.html">4</a>
+                    <a href="#">5</a>
+                    <a href="#">6</a>
+                    <a href="#">&raquo;</a>
             </div>
+        </div>
 
-
-
-
-
+        <button onclick="darkMode()">Dark Mode</button>
             
         </body>
         </html>
