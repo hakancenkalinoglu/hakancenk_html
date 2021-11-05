@@ -4,6 +4,6 @@ function myFunction(){
 }
 
 function darkMode(){
-    var element = document.sty
+    var element = document.body
     element.classList.toggle("dark-mode");
 }
