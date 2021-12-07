@@ -57,7 +57,7 @@ function testzoomout(x){
 
 
 
-function php(){
+function slmHello(){
   document.getElementById("SLM").innerHTML="hello world"
 }
 
